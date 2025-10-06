@@ -1,0 +1,1218 @@
+<?php
+@$dil = array(
+"adminBakiyeOdeMailDetay" => "Merhaba Sayın $uyeadi; <br> $bakiye_id 'nolu Bakiye ye ait ödemeniz hesabınıza eklenmiştir.<br> Detaylar için üye paneline gidebilirsiniz.",
+
+"adminBakiyeOdeMailBaslik" => "Bakiye Odemesi Tamamlandı!",
+
+"adminTemsilciMesajMailBaslik" => "Müşteri Temsilci Mesajı!",
+
+"adminTemsilciMesajMailDetay" => "Merhaba Sayın $uyeadi; <br> Müşteri temsilcisi tarafından $pgs_id 'nolu PGS'ye ait mesajınız cevaplanmıştır.<br> Cevap verebilmek için üye paneline gidebilirsiniz.",
+
+"adminPGSodemeBildirimMailBaslik" => "PGS Ödeme Bildirimi!",
+
+"adminPGSodemeBildirimMailDetay" => "Merhaba Sayın $uyeadi; <br> $pgs_id 'nolu PGS ye ait ödemeniz hesabınıza bakiye olarak eklenmiştir.<br> Detaylar için üye paneline gidebilirsiniz.",
+
+"anasayfa" => "Anasayfa",
+
+"teslimSuresiilanDetay" => "Teslim Süresi (Max.)",
+
+"uyeSozlesme" => "Üyelik Sözleşmesi",
+
+"uyeSozlesme2" => "'ni okudum kabul ediyorum.",
+
+"mesafeSozlesme" => "Mesafeli Satış Sözleşmesi",
+
+"mesafeSozlesme2" => "'ni okudum kabul ediyorum.",
+
+"uyeMesafeSozlesme" => "Üyeler Arası Mesafeli Satış Sözleşmesi",
+
+"uyeMesafeSozlesme2" => "'ni okudum kabul ediyorum.",
+
+"404" => "404",
+
+"robot" => "Recaptcha Alanı Boş Bırakılamaz!",
+
+"uygulamaIosUyari" => "Uygulamayı indirebilmek için sitemizi safari tarayıcınızda açıp aşağıda gösterilen 3 adımda uygulamanızı Apple Cihazlarınıza indirebilirisiniz. ",
+
+"uygulamayiIndir" => "Uygulamayi İndir",
+
+"resmiSil" => "Resmi Sil",
+
+"sil" => "Sil",
+
+"git" => "Git",
+
+"odemeOnayi" => "Ödeme Onayı",
+
+"tokenHatasi" => "Süresi dolmuş yada geçersiz token lütfen yeni şifre sıfırlama talebi gönderin. ",
+
+"ilanaGit" => "İlana Git",
+
+"saticiyaMesajGonder" => "Satıcıya Mesaj Gönder",
+
+"saticiMesajinaGit" => "Satıcı Mesajına Git",
+
+"musteriTemsilcisineYaz" => "Müşteri Temsilcisine Yaz",
+
+"tamamlandi" => "Tamamlandı",
+
+"resmiVitrin" => "Vitrin Görseli",
+
+"resmiSilTitle" => "Silmek İstediğinize Emin misiniz?",
+
+"404Title" => "Aradığınız Sayfayı Bulamadı",
+
+"404p2" => "Üzgünüz!!!! Aradığınız sayfa silinmiş taşınmış veya geçici olarak kaldırılmış olabilir.",
+
+"404Baslik" => "Sayfa Bulunamadı!",
+
+"kalanStok" => "Kalan Stok",
+
+"sepeteEkle" => "Sepete Ekle <b>(PGS) </b>",
+
+"sepeteGit" => "Sepete Git <br> <small>(Stoktaki Tüm Ürünler Sepettedir.) </small>",
+
+"hemenAl" => "Hemen Al <b>(PGS) </b>",
+
+"oneCikanIlanlar" => "Öne Çıkan İlanlar",
+
+"oneCikan" => "Öne Çıkan",
+
+"stokTukendi" => "Stok Tükendi!",
+
+"PGStoolTip" => "Param Güvende Sistemi (PGS) İle Güvenle Alın!",
+
+"vitrinIlani" => "Vitrin İlanı",
+
+"kategori" => "Kategori",
+
+"favoriyeEkle" => "Favoriye Ekle",
+
+"dilSeciniz" => "Dil Seçiniz",
+
+"bankaHesaplariTitle" => "Banka Hesaplarımız",
+
+"bankaAdi" => "Banka adı",
+
+"hesapUnvani" => "Hesap Ünvanı",
+
+"subeAdiKodu" => "Şube adı/kodu",
+
+"hesapNo" => "Hesap no",
+
+"iban" => "İban",
+
+"blog" => "Blog",
+
+"yorum" => "Yorum",
+
+"yorumlar" => "Yorumlar",
+
+"gonder" => "Gönder",
+
+"vazgec" => "Vazgeç",
+
+"onayliYorumYok" => "<b>Henüz onaylanmış bir yorum yok.</b> <br> <small>İlk yorumu siz yazarak düşüncelerinizi diğer kullanıcılarla paylaşabilirsiniz.</small>",
+
+"yorumyapilamaz" => "<b>Yorum Yapılamaz!</b> <br> <small>Yorum yapabilmek için üye girişi yapmalısınız.</small>",
+
+"satinAlinamaz" => "<b>Satın Alınamaz!</b> <br> <small>Satın alabilmek için üye girişi yapmalısınız.</small>",
+
+"formgonderilemezUyeGirisiYap" => "<b>Form Gönderilemez1!</b> <br> <small>İşlem sağlayabilmek için lütfen üye girişi yapınız!</small>",
+
+"yorumyapilamazKendineAit" => "<b>Form Gönderilemez!</b> <br> <small>Kendinize ait ilana yorum yapamazsınız.</small>",
+
+"yorumyap" => "Yorum Yap",
+
+"yorumyok" => "<b>Henüz onaylanmış bir yorum yok.</b> <br> <small>İlk yorumu siz yazarak düşüncelerinizi diğer kullanıcılarla paylaşabilirsiniz.</small>",
+
+"devaminiOku" => "Devamını Oku",
+
+"onceki" => "Önceki",
+
+"sonraki" => "Sonraki",
+
+"anahtarkelime" => "Anahtar Kelime",
+
+"onaylanmis" => "Onaylanmış",
+
+"sehir" => "Şehir",
+
+"kategori" => "Kategori",
+
+"tumkategori" => "Tüm Kategoriler",
+
+"aramaSonucu" => "Arama Sonucu",
+
+"aramaSonucuIlanBulunmustur" => "ilan bulunmuştur.",
+
+"ziyaretcisayisi" => "İlanı Görüntüleyen Tekil Ziyaretçi Sayısı",
+
+"detaylar" => "Detaylar",
+
+"harita" => "Harita",
+
+"yorumSoruCevap" => "Yorum & Soru Cevap",
+
+"aliciDeger" => "Alıcı Değerlendirmeleri",
+
+"tarih" => "Tarih",
+
+"geri" => "Geri",
+
+"ilanNo" => "İlan No",
+
+"belirtilmemis" => "Belirtilmemiş",
+
+"hazirlaniyor" => "Hazırlanıyor",
+
+"aciklama" => "Açıklama",
+
+"paylas" => "Paylaş",
+
+"sikayetEt" => "İlanı Şikayet Et",
+
+"sikayetformu" => "Şikayet Bildiri Formu",
+
+"sikayetformuUyeGiris" => "<b>Form Gönderilemez!</b> <br> <small>İlanlar hakkında şikayet ve bildirim işlemleri için üye girişi yapmalısınız.</small>",
+
+"secimyap" => "Seçim Yapınız",
+
+"sikayetformu1" => "İlanda belirtilen ürün/hizmet satılmış ya da kiralanmış",
+
+"sikayetformu2" => "İlan kategorisi hatalı",
+
+"sikayetformu3" => "İlan bilgileri hatalı veya yanlış",
+
+"sikayetformu4" => "İlan birden fazla kere yayımlanmış",
+
+"sikayetformu5" => "Diğer",
+
+"sikayetformuPlace" => "Detaylı bilgi için açıklama giriniz.",
+
+"degerlendiren" => "Değerlendiren",
+
+"satinAlinanUrun" => "Satın Alınan Ürün",
+
+"aliciYorumu" => "Alıcı Yorumu",
+
+"cevapla" => "Cevapla",
+
+"yorumYapSoruSor" => "Yorum Yap & Satıcıya Sor",
+
+"profileAitSon10Degerlendirme" => "Profile ait son 10 değerlendirme burada gösterilmektedir.",
+
+"degerlendirmeYok" => "Profil için henüz onaylanmış bir değerlendirme yok. Ürünü satın alarak ilk değerlendirmeyi siz yapabilirsiniz.",
+
+"herkeseAcik" => "Herkese Açık",
+
+"herkeseAcikOlsun" => "Mesajınız herkese açık olsun.",
+
+"herkeseAcikSor" => "Herkese açık soru sorunuz",
+
+"gizliSoruSor" => "Gizli sorunuzu sorunuz",
+
+"bildirimIcinKullanilacak" => "Bildirim için kullanılacak olup açıkça yayınlanmayacaktır.",
+
+"soruSorUyeKontrol" => "<h3>UYARI! </h3> Soru sorabilmek için üye girişi yapmalısınız.",
+
+"uyeKayitTarihi" => "Üye kayıt tarihi",
+
+"onaysizProfil" => "Onaysız Profil",
+
+"onaysizProfilTitle" => "Sistem tarafından Profil ve iletişim bilgileri teyit edilememiştir.",
+
+"onayliProfil" => "Onaylı Profil",
+
+"hesabimOnayli" => "Onaylı",
+
+"onayliProfilTitle" => "Sistem tarafından Profil ve iletişim bilgileri teyit edilmiştir.",
+
+"profiliTamamlananSatis" => "Profilin Tamamlanan Satışları",
+
+"profileYapilanDegerlendirme" => "Profile Yapılan Değerlendirmeler",
+
+"profiliGoster" => "Profili Göster",
+
+"profilPuani" => "Profil Puanı",
+
+"profilPuaniTitle" => "Profilin yaptığı satışlar için alıcı değerlendirme puanları ile profil ortalamasıdır.",
+
+"sepetUyari1" => "Sepete eklenen veya eklenecek ürünlerin toplamı stoktan fazla olamaz.",
+
+"sepetUyari2" => "Sepete ekleyeceğiniz ürünlerin adet toplamı (1) 'den az olamaz.",
+
+"ilanekle" => "İlan Ekle",
+
+"tamamlanmamisIlan" => "Tamamlanmamış ilanınız mevcut!",
+
+"tamamlanmamisIlanTitle1" => "Yeni ilan eklemeden önce",
+
+"tamamlanmamisIlanTitle2" => "nolu tamamlanmamış ilanınız için işlem yapınız!",
+
+"ilaniTamamla" => "İlanı Tamamla",
+
+"ilaniSil" => "İlanı Sil",
+
+"ilaniSilOnay" => "Silmek İstediğinize Emin misiniz?",
+
+"anakategori" => "Ana Kategori",
+
+"kategoriyiKaydet" => "Kategoriyi Kaydet",
+
+"kategoriyiKaydetp" => "İlanınızı PGS olarak ekleyin.",
+
+"kategoriyiKaydetIlanp" => "İlan olarak ekleyin.",
+
+"duzenle" => "Düzenle",
+
+"PGSKapatacak" => "Seçtiğiniz kategoride Param Güvende Sistemi (PGS) ile satış yapmaya izin verilmemektedir. <br> Bu sebeple ilanınızda PGS sistemi kapanacaktır.",
+
+"altKategoriSec" => "Lütfen Alt Kategori Seçiniz",
+
+"kategoriDegistir" => "Kategoriyi Değiştir",
+
+"kategoriyiKaydetButon" => "Kategoriyi Kaydet & Pgs İle Sat",
+
+"kategoriyiKaydetButonIlan" => "Kategoriyi Kaydet & İlan Ekle",
+
+"PGSIleSat" => "PGS ile Sat",
+
+"PGSIleSatTcOnayGerekli" => "PGS ile Sat <br> PGS satış için TC kimliği onaylı olması gerekir.",
+
+"ilanBasligi" => "İlan Başlığı",
+
+"ilanBasligiPlace" => "İlan başlığı giriniz.",
+
+"ilanAciklama" => "İlan Açıklaması",
+
+"ilanAciklamaPlace" => "ilanınızı tanıtacak gerekli detayları belirtiniz..",
+
+"ilanFiyati" => "İlan Fiyatı",
+
+"ilanFiyatiKusurat" => "Küsürat",
+
+"ilanStokAdet" => "Stok / Adet",
+
+"ilanStokAdetPlace" => "UYARI: Sistem her başarılı satıştan stok düşer stok tükendiğinde yayından otomatik kalkar.",
+
+"ilanTeslim" => "Teslimat Süresi (Zamanında teslim edilmeyen ürünler için ceza işlemi uygulanır.)",
+
+"ilanTeslimPlace" => "UYARI: Ürün satın alımı yapıldıktan sonra teslim edebileceğiniz süreyi giriniz.",
+
+"ilanTeslimZamanBirimi" => "Zaman Birimi",
+
+"ilanTeslimZamanBirimiPlace" => "Teslim zaman birimini seçiniz.",
+
+"ilanDakika" => "Dakika",
+
+"ilanSaat" => "Saat",
+
+"ilanGun" => "Gün",
+
+"ilanHafta" => "Hafta",
+
+"ilanYayin" => "İlan Yayın Süresi",
+
+"ilanYayinAy" => "Ay",
+
+"ilanYayinPlace" => "UYARI: İlan süre bittiğinde yayından otomatik kalkar.",
+
+"ilanIletisimGoster" => "İlanda İletişim Bilgilerini Göster",
+
+"ilanIletisimGizliBilgi" => "İlan detayda telefon ve whatsapp bilgileriniz görünmeyecektir. <br> Ziyaretçiler size sadece özel mesaj ile ulaşabilirler",
+
+"ilanIletisimTel" => "Telefon",
+
+"ilanIletisimTelPlace1" => "Üye",
+
+"ilanIletisimTelPlace2" => "Hesap Yönetimi sayfasından düzenleyebilirsiniz.",
+
+"ilanIletisimWhats" => "Whatsapp",
+
+"il" => "il",
+
+"ilanDetay" => "İlan Detay",
+
+"ilce" => "ilce",
+
+"mahalle" => "Mahalle",
+
+"ilSecin" => "İl Seçiniz",
+
+"Seciniz" => "Kategori Seçiniz >>",
+
+"ilceSecin" => "İlçe Seçiniz",
+
+"secimiYok" => "Seçimi Yok",
+
+"MahalleSecin" => "Mahalle Seçiniz",
+
+"onceIlSecin" => "Değiştirmek için önce il seçiniz",
+
+"onceIlceSecin" => "Değiştirmek için önce ilçe seçiniz",
+
+"harita" => "Harita",
+
+"haritaPlace" => "Not: Konum işaretlemek için önce il, ilçe ve mahalle seçiniz!",
+
+"secenekler" => "Seçenekler",
+
+"ozellikler" => "Özellikler",
+
+"gorselYukle" => "Görsel Yükle",
+
+"gorselYukleTitle" => "Görsel Düzenle / Vitrin Seç",
+
+"kaydetDevamEt" => "Kaydet ve Devam Et",
+
+"onayaGonderilmeyenIlanUyari" => "Onaya gönderilmeyen ilanlar kısa süre sonra otomatik olarak silinecektir.",
+
+"dopingTitle" => "Doping Paketleri ile Hep Önde Olun!",
+
+"anasayfaVitrini" => "Anasayfa Vitrini",
+
+"anasayfaVitriniP" => "İlanınız her gün 'milyonlarca kişinin ziyaret ettiği' sitemizin ana sayfasında vitrin alanında yer alsın istiyorsanız Ana Sayfa Vitrini alabilirsiniz.",
+
+"istemiyorum" => "İstemiyorum",
+
+"yayinSuresince" => "Yayın Süresince",
+
+"gun" => "Gün",
+
+"kategoriVitrini" => "Kategori Vitrini",
+
+"kategoriVitriniP" => "İlanınızı bulunduğu kategorinin sayfasında, milyonlarca kişinin ziyaret ettiği vitrin bölümünde sergilemek için Kategori Vitrini alabilirsiniz.",
+
+"DopingAlOneCikan" => "Öne Çıkan",
+
+"ilanPaketi" => "İlan Paketi",
+
+"usteTasiGuncelle" => "Üste Taşı (GÜNCELLE)",
+
+"DopingAlOneCikanP" => "İlanınız her yerde ‘Görsel Üzerine Renkli Bant ile dikkat çekici bir şekilde, kendini göstersin istiyorsanız Öne çıkan hizmetimizi satın alabilirsiniz.",
+
+"ilanOnizle" => "İLAN ÖN İZLEME",
+
+"ilanOnayaGonder" => "Onaya Gönder",
+
+"bakiyeYukle" => "Bakiye Yükle",
+
+"yenidenDuzenle" => "Yeniden Düzenle",
+
+"yetersizBakiye" => "Yetersiz Bakiye!",
+
+"odenecekToplamTutar" => "Ödenecek Toplam Tutar",
+
+"kategoriler" => "Kategoriler",
+
+"filtreler" => "Filtreler",
+
+"kelime" => "Kelime",
+
+"kelimePlace" => "Kelime ile Ara",
+
+"fiyatAraligi" => "Fiyat Aralığı",
+
+"ilanOzellikleri" => "İlan Özellikleri",
+
+"filtrePGS" => "Param Güvende (PGS) İlanlari",
+
+"haritaliIlanlar" => "Haritalı İlanlar",
+
+"resimliIlanlar" => "Resimli İlanlar",
+
+"Filtrele" => "Filtrele",
+
+"aramaFavoriEkle" => "Aramayı Favorilere Kaydet",
+
+"filtreyiKaldir" => "Filtreyi Kaldır",
+
+"kategoriVitrini" => "Kategori Vitrini",
+
+"kategoriVitriniTitle" => "İlanlarınızda Kategori Vitrini Satın Alın Burada Görünsün!",
+
+"kategoriListeSayi1" => "Toplam",
+
+"kategoriListeSayi2" => "İlan Listelenmektedir.",
+
+"listeSirala" => "Sırala",
+
+"gelismisSiralama" => "Gelişmiş Sıralama",
+
+"fiyataGoreOnceYuksek" => "Fiyata göre (Önce en yüksek)",
+
+"fiyataGoreOnceDusuk" => "Fiyata göre (Önce en düşük)",
+
+"tariheGoreOnceYeni" => "Tarihe göre (Önce en yeni ilan)",
+
+"tariheGoreOnceEski" => "Tarihe göre (Önce en eski ilan)",
+
+"basligaGoreAZ" => "Başlığa göre (A-Z)",
+
+"basligaGoreZA" => "Başlığa göre (Z-A)",
+
+"listedeIlanYok" => "Listelenecek bir içerik bulunamadı! Bu alana ilk ilanı siz ekleyebilirsiniz. <a class='text-white' href='../../ilan-ekle'>İLAN EKLE</a>",
+
+"iletisim" => "İletişim",
+
+"iletisimFormu" => "İletişim Formu",
+
+"adsoyadGiriniz" => "Ad soyad giriniz.",
+
+"emailGiriniz" => "E mail adresi giriniz",
+
+"telefonNoGiriniz" => "Telefon no giriniz",
+
+"konuGiriniz" => "Konu giriniz.",
+
+"mesajiniz" => "Mesajınız...",
+
+"guvenliOdeme" => "Güvenli Ödeme",
+
+"goruntuleme" => "Görüntüleme",
+
+"goruntulemeTitle" => "Profili ziyaret eden toplam kişi sayısı",
+
+"takipci" => "Takipçi",
+
+"takipciTitle" => "Profili takip eden toplam üye sayısı",
+
+"bilgiler" => "Bilgiler",
+
+"profiliDetay" => "Profil Detayı",
+
+"profiliKullaniciAdi" => "Kullanıcı Adı",
+
+"profilDurumu" => "Profil Durumu",
+
+"profilPGSSayisi" => "PGS Satış Sayısı",
+
+"profiliDegerlendirmeSayisi" => "Profil Değerlendirme Sayısı",
+
+"profilHakkinda" => "Profil Hakkında",
+
+"profilAitIlanlar" => "Profile Ait İlanlar",
+
+"profilTakipEt" => "Takip Et",
+
+"profilTakipBirak" => "Takibi Bırak",
+
+"saticiyaSor" => "Soru Sor",
+
+"sayfalar" => "Sayfalar",
+
+"sepetim" => "Alışveriş Sepetim",
+
+"urun" => "Ürün",
+
+"baslik" => "Başlık",
+
+"fiyat" => "Fiyat",
+
+"adet" => "Adet",
+
+"toplamFiyat" => "Toplam Fiyat",
+
+"islem" => "İşlem",
+
+"guncelle" => "Güncelle",
+
+"araToplam" => "Ara Toplam",
+
+"odenecekTutar" => "Ödenecek Tutar",
+
+"bosSepet" => "<b>Henüz sepetinizde bir ürün eklemediniz.</b> <br> <small>sepetinize ürün ekleyerek param güvende sistemi ile güvenli alışveriş yapabilirsiniz..</small>",
+
+"alisveriseDevamEt" => "Alışverişe Devam Et",
+
+"sepetiBosalt" => "Sepeti Boşalt",
+
+"odemeYap" => "Ödeme Yap",
+
+"odeVeSiparisOlustur" => "Öde ve Sipariş Oluştur",
+
+"sss1" => "Sık Sorulan Sorular",
+
+"sssKisa" => "SSS",
+
+"banliUye" => "Üyeliğiniz banlanmış görünüyor. Bunun hata olduğunu düşünüyorsanız çıkış yaparak iletişim formundan üyelik mailinizi belirtip bilgi almak için mesaj gönderebilirsiniz.",
+
+"uyeMailTelOnayUyari" => "Üyeliğinizi kullanabilmeniz için lütfen <br> Mail ve Telefon nurmaranızı onaylayınız!",
+
+"basariliIslem" => "İşlem Başarı İle Gerçekleşmiştir!",
+
+"basariziIslem" => "İşlem Sırasında Bir Hata Oluştu!",
+
+"ilanduzenle" => "İLANI DÜZENLE",
+
+"hesabim" => "Hesabim",
+
+"favoriler" => "Favoriler",
+
+"ilanEkle" => "İlan Ekle",
+
+"sepetimBottomBar" => "Sepetim",
+
+"loginBottomBar" => "Üye Giriş",
+
+"loginTopBar" => "Giriş Yap",
+
+"registerBottomBar" => "Üye Ol",
+
+"registerTopBar" => "Üye Ol",
+
+"sifreSifrila" => "Şifre Sıfırla",
+
+"tiklaAraBottomBar" => "Tıkla Ara",
+
+"whatsappBottomBar" => "Whatsapp Yaz",
+
+"soruSorBottomBar" => "Soru Sor",
+
+"sepeteGitTopBar" => "Sepete Git",
+
+"bildirimYokTopBar" => "Gösterilecek okunmamış bildirim yok.",
+
+"bildirimOkunmadiTopBar" => "Okunmadı",
+
+"hesabimTopBar" => "Hesabim",
+
+"ilanlarimTopBar" => "İlanlarım",
+
+"favorilerimTopBar" => "Favorilerim",
+
+"mesajlarimTopBar" => "Mesajlarim",
+
+"hesapAyarlariTopBar" => "Hesap Ayarlarım",
+
+"guvenliCikisTopBar" => "Güvenli Çıkış",
+
+"kategorilerTopBar" => "KATEGORİLER",
+
+"ilanEkleButonTopBar" => "Ücretsiz İlan Ekle",
+
+"tumKonular" => "Tüm Konular",
+
+"sonEklenenYazilar" => "Son Eklenen Yazılar",
+
+"populerBlogKategoriler" => "Popüler Kategoriler",
+
+"tumu" => "Tümü",
+
+"tumSehirler" => "Tüm Şehirler",
+
+"sehirSecinizArama" => "Şehir Seçiniz",
+
+"slaytIlanAra" => "İlan Ara",
+
+"tumuPlace" => "Tüm kategorilerde kelime veya ilan no ile ara....",
+
+"kategoriAraPlace" => "Kategorisinde kelime veya ilan no ile ara....",
+
+"bakiyeIslemleriBilgi" => "Yükleyeceğiniz tutarın herhangi bir geçerlilik süresi olmaz, dilediğiniz zaman her hizmet için kullanabilirsiniz. Sisteme Yüklenen tutar iadesi yapılmaz.",
+
+"bakiyeIslemleriTitle" => "Bakiye İşlemleri",
+
+"bakiyeIslemleriKrediKarti" => "Online Kredi Kartı",
+
+"bakiyeIslemleriHavale" => "Banka Havalesi",
+
+"bakiyeIslemleriBakiyeMevcut" => "Mevcut Bakiye",
+
+"bakiyeIslemleriTutarGiriniz" => "Tutar Giriniz",
+
+"bakiyeIslemleriTutarGirinizTitle" => "Min. Tutar <?=$birim?>10 dir. Yatan tutardan KDV düşülecektir, istediğiniz tutarı +KDV şeklinde yatırınız.",
+
+"bakiyeIslemleriOdemeyeGec" => "Ödemeye Geç",
+
+"bakiyeIslemleriOdemeyeGecUyari" => " Kredi kartı ödemesi yapabilmek için lütfen <b>Hesap Yönetimi</b> bölümünden il, ilçe ve adres alanlarını eksiksiz doldurunuz.",
+
+"bakiyeIslemleriHavaleUyari1" => "Havale açıklama alanına",
+
+"bakiyeIslemleriHavaleUyari2" => "adını mutlaka giriniz.",
+
+"bakiyeIslemleriHavaleTutar" => "Yatırdığınız Tutar",
+
+"bakiyeIslemleriBildirimYap" => "Bidirim Yap",
+
+"bakiyeIslemleriIslemGecmisi" => "İşlem Geçmişi",
+
+"bakiyeIslemleriIslemTarihi" => "İşlem Tarihi",
+
+"bakiyeIslemleriTutar" => "Tutar",
+
+"bakiyeIslemleriOdeme" => "Ödeme",
+
+"bakiyeIslemleriDurum" => "Durum",
+
+"bakiyeIslemleriFatura" => "Fatura",
+
+"bakiyeIslemleriKDV" => "KDV",
+
+"bakiyeIslemleriBasarili" => "Başarılı",
+
+"bakiyeIslemleriIndir" => "İndir",
+
+"bakiyeIslemleriBasarisiz" => "Başarısız",
+
+"bakiyeIslemleriBekliyor" => "Onay Bekliyor",
+
+"bakiyeIslemleriReddedildi" => "Reddedildi",
+
+"bakiyeIslemleriTamamlandi" => "Tamamlandi",
+
+"favoriAramalarIlanlar" => "Favori İlanlar",
+
+"favoriAramalarUyeler" => "Favori Üyeler",
+
+"favoriAramalarTitle" => "Favori Aramalar",
+
+"favoriAramalarEklemeTarihi" => "Ekleme Tarihi",
+
+"favoriAramalarSayfayaGit" => "Sayfaya Git",
+
+"favoriAramalarYok" => "Gösterilecek İçerik Bulunamadı!",
+
+"ilanListeleriBaslikveDetay" => "Başlık & Detay",
+
+"ilanListeleriFiyat" => "Fiyat",
+
+"ilanListeleriIslem" => "İşlem",
+
+"ilanListeleriIlanYok" => "Gösterilecek İlan Bulunamadı!",
+
+"mesajlarMesajlarim" => "Mesajlarım",
+
+"mesajlarTumMesajlarim" => "Tüm Mesajlarım",
+
+"mesajlarGelenMesajlarim" => "Gelen Mesajlarım",
+
+"mesajlarGonderilenMesajlarim" => "Gönderilen Mesajlarım",
+
+"mesajlarMesajListesi" => "Mesaj Listesi",
+
+"mesajlarMesajDetay" => "Detay & Başlık",
+
+"mesajlarMesajZaman" => "İlk Mesaj / Son Mesaj Tarih",
+
+"mesajlarMesajProfil" => "Profil Özel Mesaj",
+
+"timeConvertDakika" => "dakika önce",
+
+"timeConvertsaat" => "saat önce",
+
+"timeConvertgun" => "gün önce",
+
+"timeConverthafta" => "hafta önce",
+
+"timeConvertay" => "ay önce",
+
+"timeConvertyil" => "yıl önce",
+
+"timeConvertsaniye" => "saniye önce",
+
+"timeConvertaz" => "az önce",
+
+"timeConvertOcak" =>"Ocak",
+
+"timeConvertSub"=>"Şubat",
+
+"timeConvertMart"=>"Mart",
+
+"timeConvertNis"=>"Nisan",
+
+"timeConvertMay"=>"Mayıs",
+
+"timeConvertHaz"=>"Haziran",
+
+"timeConvertTem"=>"Temmuz",
+
+"timeConvertAgust"=>"Ağustos",
+
+"timeConvertEylul"=>"Eylül",
+
+"timeConvertEkim"=>"Ekim",
+
+"timeConvertKasim"=>"Kasım",
+
+"timeConvertAralik"=>"Aralık",
+
+"HesapBakiyesi"=>"Hesap Bakiyesi",
+
+"aktifIlanlarim"=>"Aktif İlanlarım",
+
+"ucretsizIlanHakki"=>"Mevcut İlan Hakkı",
+
+"ucretsizMesajHakki"=>"Mevcut Mesaj Hakkı",
+
+"adet"=>"Adet",
+
+"adetKalan"=>"Adet / Kalan",
+
+"toplam"=>"Toplam",
+
+"pgsAldiklarim"=>"PGS Aldıklarım",
+
+"pgsAldiklarimUyari"=>"Önemli! <br> Siparişlerinizde onaylanmış olanların teslim bilgilerinin kontrolünü sağlayıp doğruluğundan emin olduğunuzda 'Detay Göster' bölümü ile 'Tamamlandı Olarak işaretle' butonuna basarak onaylamanız gerekir. Aksi durumda bir sorun oluşursa satıcı/alıcı ile iletişime geçebilirsiniz. <br> Sistemsel bir problem için 'Müşteri Temsilcisine Yaz' butonu ile destek alabilirsiniz.",
+
+"pgsSattiklarim"=>"PGS Sattıklarım",
+
+"okunmamisBildirimler"=> "Okunmamış Bildirimler",
+
+"okunmamisBildirimler"=> "Hesap Hareketlerim",
+
+"Sebep"=>"Sebep",
+
+"musteriTemsilcisi"=>"Müşteri Temsilcisi",
+
+"goster"=>"Göster",
+
+"iptalRed"=>"İptal / Red",
+
+"odemeDetay"=>"Ödeme Detay",
+
+"siparisTarihi"=>"Sipariş Tarihi",
+
+"teslimTarihi"=>"Teslim Tarihi",
+
+"islemSebebi"=>"İşlem Sebebi",
+
+"islemDurum"=>"İşlem Durumu",
+
+"hesapHareketi"=>" Hesap hareketinize bağlı olan ürünleri PGS Aldıklarım veya PGS Sattıklarım sayfasından inceleyebilirsiniz.",
+
+"idBaslikDetay"=>"ID - Başlık & Detay",
+
+"adetFiyat"=>"Adet / Fiyat",
+
+"yuklenenTutar"=>"Yüklenen Tutar",
+
+"yok"=>"Yok",
+
+"var"=>"Var",
+
+"kapat"=>"Kapat",
+
+"liPaket"=>"li Paket",
+
+"HesapYonetimi"=>"Hesap Yönetimi",
+
+"HesapBilgileri"=>"Hesap Bilgileri",
+
+"HesapOnayliDegilUyari"=>"<b>Üyeliğiniz Onaylı Değil!</b> <br> Üyeliğinizi onaylamak için yetkili kişi tarafından Ad, soyad, doğum tarihi ve TC kimlik numarası eşleşmeli aynı zamanda Mail ve Telefon numaranızı onaylamalısınız. <br>
+<hr> <small class='text-muted text-white'>Üyeliğinizi onaylamak ilanlarınızı inceleyen müşterilerinize ekstra güven sağlayacaktır aksi durumda ilan detayınızda 'Onaysız Üye' ibaresi görüneceğinden satış şansınız düşecektir. </small>",
+
+"HesapOnayli"=>"<b>Tebrikler!</b> <br> Üyeliğiniz sistem tarafından onaylanmış durumdadır. Artık daha çok alıcıya daha kolay ürün satabilirsiniz.",
+
+"TcAdresOnayli"=>"Tebrikler! <br> Ad, Soyad, Doğum Yılı ve TC kimlik onaylandı!",
+
+"TcAdresOnaysiz"=>"Maalesef! <br> Ad, Soyad, Doğum Yılı ve TC kimlik onaylanmadı!",
+
+"TcAdresOnayGerekli"=>"Üyelik onayı için gereklidir.",
+
+"adiniz"=>"Adınız",
+
+"adinizTitle"=>"Adınızı giriniz.",
+
+"soyAdiniz"=>"Soyadınız",
+
+"onayGereklidir."=>"Onay gereklidir.",
+
+"soyAdinizTitle"=>"Soyadınızı giriniz.",
+
+"telefonNo"=>"Telefon",
+
+"telefonNoTitle"=>"Telefon numaranızı giriniz.",
+
+"dogumYili"=>"Doğum Yılı",
+
+"tcKimlikNo"=>"TC Kimlik No",
+
+"tcKimlikNoTitle"=>"Tc kimlik nonuzu giriniz.",
+
+"dogumYiliTitle"=>"Doğum yılınızı giriniz.",
+
+"mailAdresiniz"=>"Mail Adresiniz",
+
+"mailAdresinizTitle"=>"Mail adresi giriniz.",
+
+"mailAdresiOnaylandi"=>"Tebrikler! <br> Email Adresiniz Onaylı!",
+
+"mailAdresiOnaysiz"=>"Maalesef! <br> Mail adresiniz onaylanmadı!",
+
+"hemenOnayKoduGonder"=>"Hemen Onay Kodu Gönder!",
+
+"onayKodunuzuGirin"=>"Onay kodunuzu girin!",
+
+"sadeceBildirimlerIcinKullan"=>"Sadece bildirimler için kullanılacaktır.",
+
+"90"=>"+90",
+
+"telefonOnaylandi"=>"Tebrikler! <br> Telefon Numaranız Onaylı!",
+
+"telefonOnaylanmadi"=>"Maalesef! <br> Telefon Numaranız Onaylanmadı!",
+
+"kullaniciAdi"=>"Kullanıcı Adınız",
+
+"kullaniciAdiTitle"=>"Kullanıcı adınız ilan detayda ve mesajlarda görünecektir",
+
+"kullaniciAdiPlace"=>"Kullanıcı adı giriniz.",
+
+"profilResmi"=>"Profil Resmi",
+
+"resmiSecin"=>"Resmi Seçin",
+
+"resmiSecinTitle"=>"Değiştirmek istemiyorsanız boş bırakınız.",
+
+"resmiSecin"=>"Resmi Seçin",
+
+"profilResmiTitle"=>"Profil sayfanızda görünecektir.",
+
+"uyeHakkinda"=>"Üye Hakkında",
+
+"uyeHakkindaTitle"=>"Profil sayfanızda görünecektir.",
+
+"bankaHesapBilgileri"=>"Banka Hesap Bilgilerim",
+
+"bankaHesapBilgileriTitle"=>"Kendinize ait banka hesabınızın banka adı, iban ve hesap ünvanı olarak ekleyiniz. Hesap hatalarından doğan ödeme hatalarının sorumluluğu size aittir. ",
+
+"faturaBilgileri"=>"Fatura Bilgileri",
+
+"kurumsalUyelik"=>"Kurumsal Üyelik",
+
+"firmaUnvani"=>"Firma Ünvanı",
+
+"firmaUnvaniTitle"=>"Kurumsal üyeler için gereklidir.",
+
+"vergiDairesi"=>"Vergi Dairesi",
+
+"vergiNo"=>"Vergi No",
+
+"adres"=>"Adres",
+
+"adresGiriniz"=>"Adres giriniz",
+
+"guvenlikIslemleri"=>"Güvenlik İşlemleri",
+
+"eskiSifreniz"=>"Eski şifreniz",
+
+"Sifreniz"=>"şifreniz",
+
+"sifreyiKaydet"=>"Şifreyi Kaydet",
+
+"girisSayfasinaGit"=>"Giriş Sayfasına Git!",
+
+"yeniSifreniz"=>"Yeni şifreniz",
+
+"yeniSifrenizTekrar"=>"Şifreniz Tekrar",
+
+"profiliGuncelle"=>"Profili Güncelle",
+
+"tumIlanlarim"=>"Tüm İlanlarım",
+
+"pasifIlanlarim"=>"Pasif ilanlarım",
+
+"doping"=>"Doping",
+
+"login"=>"Üye Girişi",
+
+"sifremiUnuttum"=>"Şifremi unuttum!",
+
+"uyeDegilmisiniz"=>"Üye değilmisiniz? Hemen",
+
+"mesajDetay"=>"Mesaj Detay",
+
+"tumMesajlarim"=>"Tüm Mesajlarim",
+
+"gelenMesajlarim"=>"Gelen Mesajlarim",
+
+"GidenMesajlarim"=>"Giden Mesajlarim",
+
+"paketIslemleri"=>"Paket İşlemleri",
+
+"basic"=>"Basıc",
+
+"Premium"=>"Premıum",
+
+"Enterprise"=>"Enterprıse",
+
+"Ultimate"=>"Ultımate",
+
+"yillik"=>"Yıllık",
+
+"IlanHakki"=>"İlan Hakkı",
+
+"mesajHakki"=>"Mesaj Hakkı",
+
+"aktif"=>"Aktif",
+
+"suresiDoldu"=>"Süresi Doldu",
+
+"satinAl"=>"Satın Al",
+
+"pasifIlanlarim"=>"Pasif İlanlarım",
+
+"PGSsiparisIslemleri"=>"PGS Sipariş İşlemleri",
+
+"siparisDetay"=>"Sipariş Detay",
+
+"teslimBilgisi"=>"Teslim Bilgisi",
+
+"ticaretPuaniniz"=>"Ticaret Puanınız",
+
+"ticaretDegerlendirmeniz"=>"Ticaret Değerlendirmeniz",
+
+"ticaretYorumu"=>"Yazdığınız yorum yönetim onayı sonrası satıcı sayfasında görünecektir.",
+
+"ticaretYorumYapiniz"=>"Ticaret ile ilgili yorum yapınız.",
+
+"ticaretYorumOncesiUyari"=>"UYARI! \nSiparişinizi tamamladığınızda ödeme satıcıya geçecektir. Bu işlem sonucunda siparişinizi sorunsuz teslim aldığınızı onaylamış sayılırsınız.",
+
+"yorumGonderSiparisTamamla"=>"Yorumu Gönder & Siparişi Tamamla",
+
+"PGSicinMusteriTemsilcisineYaz"=>"PGS için Müşteri Temsilcisine Yaz",
+
+"siparisHakkindaMesaj"=>"Sipariş Hakkında Mesaj",
+
+"MusteriTemsilcisigorusmeDetayi"=>"nolu sipariş için müşteri temsilcisi görüşme detayı",
+
+"PGSsattiklarimUyari"=>"Önemli! <br> Siparişlerinizde detay göster diyerek sipariş durumunuzu ve teslimat bilgi alanını doldurunuz. Bu sayede siparişleriniz zamanında teslim edilmiş ve olumlu yorumlar alabilirsiniz.",
+
+"cekimTalebiYap"=>"Ödeme Çekim Talebi Yap",
+
+"cekimTalebi"=>"Ödeme Çekim Talebi",
+
+"cekimTalebiTitle"=>"Ödeme için Kayıtlı Banka Hesabima Çekim Talebinde Bulunmak İstiyorum!",
+
+"cekimTalebiYapilmisUyari"=>"Uyarı! <br> Daha önce bu PGS için ödeme talebinde bulunulmuştur. Bir sorun yaşıyorsanız lütfen ilgili pgs üzerinden müşteri temsilcisine yaz butonu ile yardım alabilirsiniz.",
+
+"cekimTalebiHesapYokUyari"=>"Uyarı! <br> Üyeliğinize tanımlı bir banka hesabı yok. Lütfen üyelik panelinizdeki hesap yönetimi sayfanızdan banka hesabı tanımlayınız!",
+
+"cekimTalebiHesapTamamlandiUyari"=>"Uyarı! <br> Ödemeyi banka hesabınıza çekebilmeniz için alıcı PGS yi tamamlamış ve ödeme Gün sayisi sona ermiş olmalıdır.",
+
+"cekimTalebiTamamlandiUyari"=>" Bilgi! <br> Ödemeyi tanımlı bir banka hesabınıza sistem tarafından yapılmıştır. Herhangi bir sorunda lütfen ilgili pgs üzerinden müşteri temsilcisine yaz butonu ile yardım alabilirsiniz.",
+
+"detayGoster"=>"Detay Göster",
+
+"aliciyaMesajGonder"=>"Alıcıya Mesaj Gönder",
+
+"aliciMesajinaGit"=>"Alıcı Mesajına Git",
+
+"teslimDurumuSeciniz"=>"Teslim Durumu Seçiniz",
+
+"teslimBilgisiGiriniz"=>"Teslim Bilgisi Giriniz",
+
+"teslimBilgisiEkBilgi"=>"Teslimat ile ilgili alıcıya ek bilgi verebilirsiz. (Yanlış bilgi link düzenleme hk.)",
+
+"TeslimBilgiTitle"=>"Yazdığınız detay alıcı tarafından eksiksiz olarak görünecektir.",
+
+"aliciPuani"=>"Alıcı Puanı",
+
+"siparisiGuncelle"=>"Siparişi Güncelle",
+
+"hesabinVarmi"=>"Bir hesabın mı var? Hemen",
+
+"uyeGirisiYap"=>"Üye girişi yap",
+
+"sifremiSifirla"=>"Şifremi Sıfırla",
+
+"suresiDolanIlanlarim"=>"Süresi Dolan İlanlarım",
+
+"suresiDolanIlanlarimUyari"=>"Süresi dolan ilanlarınızı tekrar yayına almak için ilanınızı düzenleme sayfasından tekrar onaya göndermelisiniz.",
+
+"HesabimMenu"=>"Hesabım Menü",
+
+"ilanYonetimi"=>"İlan Yönetimi",
+
+"siparisOdeme"=>"Sipariş & Ödeme",
+
+"mesajYonetimi"=>"Mesaj Yönetimi",
+
+"ciksiYap"=>"Çıkış Yap",
+
+"demoMod"=>"Şu anda 'Demo Mod'dasınız! <br>Demo Modda Bu işleme izin verilmez!",
+
+"guvenlikUyeKontrol"=>"Önce üye girişi yapınız.",
+
+"girisBasarili"=>"Giriş Başarılı <br> Hesabınıza hoşgeldiniz!",
+
+"girisBasarisiz"=>"Hatalı kullanıcı bilgileri, <br> lütfen kontrol edip tekrar deneyin!",
+
+"ayniMail"=>"Girdiğiniz mail adresi veya telefon numarası başka bir üye tarafından kullanılmaktadır. ",
+
+"sifreEslesmiyor"=>"Şifreler eşleşmiyor.",
+
+"uyeOlundu"=>"Tebrikler <br> Üyeliğiniz başarılı bir şekilde oluşturuldu. ",
+
+"uyeOlunamadi"=>"Üyeliğiniz oluşturulurken bir sorunla karşılaşıldı. ",
+
+"sorualindiUyarisi"=>"Sorunuz yöneticilerimiz tarafından onaylandıktan sonra, yorum ve soru cevap bölümünde yayınlanacaktır. ",
+
+"mailGonderimiSureLimit"=>"Tekrar mail gönderimi için <br> 20 dakika beklemelisiniz. ",
+
+"onayKoduGonderildi"=>"Onay Kodu gönderimi başarı ile Gerçekleşmiştir!",
+
+"smsGonderimiSureLimit"=>"Tekrar SMS gönderimi için <br> 20 dakika beklemelisiniz. ",
+
+"onayKoduHatali"=>"Hatalı onay kodu. Lütfen bilgilerinizi kontrol edip tekrar giriniz.",
+
+"onayBasarili"=>"Onay işlemi başarı ile Gerçekleşmiştir!",
+
+"favoriLimit"=>"Favorilerinize en fazla 50 adet içerik alabilirsiniz. <br>Lütfen eski favori ilanlarınızda siliniz.",
+
+"favoriAyniIlan"=>"Aynı içerik daha önce favori listenize eklenmiştir.",
+
+"favoriKendiIlan"=>"Kendi ilanlarınızı favoriye ekleyemezsiniz.",
+
+"favoriEklendiIlan"=>"İçerik favori listenize başarı ile eklenmiştir.",
+
+"favoricikarildiIlan"=>"İçerik favori listenizden başarı ile çıkartılmıştır.",
+
+"sifreAlaniEksik"=>"Şifre Alanı Eksik! <br> Lütfen tüm şifre alanlarını eksiksiz giriniz.",
+
+"eskiSifreEksik"=>"Eski Şifreniz Eksik! <br> Lütfen bilgilerinizi kontrol ediniz.",
+
+"mevcutSifreYanlis"=>"Mevcut Şifreniz Yanlış! <br> Lütfen bilgilerinizi kontrol ediniz.",
+
+"sifrelerEslesmiyorHesabim"=>"Şifre tekrar alanı eşleşmiyor! <br> Lütfen bilgilerinizi kontrol ediniz.",
+
+"mesajLimitDolu"=>"Mesaj Limitiniz Dolmuştur! <br> Buradan ek paket alarak işlemlerinize devam edebilirsiniz.",
+
+"ilaneklendiSonAdimKaldi"=>"TEBRİKLER! <br> ilanınızı yayına almak için son bir adım kaldı.",
+
+"siparisOlustu"=>"TEBRİKLER! <br> Sparişiniz oluştu satın aldığınız ürünlerin takibini buradan yapabilirsiniz.",
+
+"siparisOdemeKaydedildi"=>"TEBRİKLER! <br> Ödeme işlemin kaydedilmiştir.Ödemeyi tamamladıktan sonra bakiyeniz eklenecektir.",
+
+"minTutardanAz"=>"Girdiğiniz tutar minimum değerden az olduğu için işlem gerçekleşmedi.",
+
+"ilanOnaySirasi"=>"Tebrikler <br> İlanınız başarı ile onay sırasına eklenmiştir.",
+
+"sifreDegisti"=>"Tebrikler <br> Şifre değiştirme işlemi başarıyla tamamlanmıştır.",
+
+"mesajHakkiDolduUyari"=>"Mesaj Limitiniz Dolmuştur! <br> Buradan ek paket alarak işlemlerinize devam edebilirsiniz.",
+
+"admineMailOnayBekleyenIlan"=>"Merhabalar; <br> Site üzerinden $uyeadi isimli üye tarafından $sipId 'nolu ilanı için onay beklemektedir. <br> İlan onay işlemleri ile ilgili detaylar için admin panelinize gidebilirsiniz.",
+
+"adminMailYorumGeldi"=>"Merhaba Sayın Yönetici; <br> Site üzerinden $yorum_isim isimli üye tarasından yorum veya soru formu onay sırasına gönderilmiştir.<br> Detaylara yönetim paneli üzerinden bakabilirsiniz. ",
+
+"adminMailSikayetGeldi"=>"Merhaba Sayın Yönetici; <br> Site üzerinden $uye isimli üye tarasından <br> $ilan_baslik isimli ilan için şikayet & bildiri formu gönderilmiştir.<br> Detaylara yönetim paneli üzerinden bakabilirsiniz.
+",
+
+"adminMailIlatisimFormuGeldi"=>"Merhaba Sayın Yönetici; <br> \n Site üzerinden iletişim formu gönderilmiştir.<br> \n Gönderen Ad: $mesaj_ad <br> \n Gönderen Mail: $mesaj_mail <br> \n Gönderen Tel: $mesaj_tel <br> \n Gönderen Konu: $mesaj_konu <br> \n Mesaj: $mesaj_icerik ",
+
+"uyeMailOnayKoduGeldi"=>"Merhabalar $uyeadi ; <br> \n Mail onay kodunuz: $kodmail <br>\n Üye panelinizde onay alanından mailinizi onaylayabilirsiniz.",
+
+"uyeSMSOnayKoduGeldi"=>"Merhabalar $uyeadi ; \n TEL onay kodunuz: $kodmail \n Üye panelinizde onay alanından telefonunuzu onaylayabilirsiniz.",
+
+"mailUyeIlanOnaylandi"=>"Merhabalar $adsoyad ; \n Onay bekleyen $IDilan nolu ilanınız onaylanıp yayına alınmıştır. \n Üye panelinizde onaylı ilanlar başlığından ilan bilgilerinize ulaşabilirsiniz.",
+
+"mailUyeIlanOnaylandiBaslik"=> "ilan Onaylandi",
+
+"uyeMailPmBildirimGeldi"=>"Merhabalar; <br> \n Site üzerinden $uyeadi isimli üye tarafından özel mesaj cevaplandı. <br> \n Mesaj ile ilgili detaylar için üye panelinizde bulunan mesajlarım alanına gidebilirsiniz.",
+
+"uyeMailUrunSatildi"=>"Merhabalar; <br> Site üzerinden $uyeadi isimli üye tarafından $odemeID 'nolu sipariş gönderildi. <br> Satın alım ile ilgili detaylar için üye panelinizde bulunan pgs-sattiklarim alanına gidebilirsiniz.",
+
+"uyeMailSiparisGuncellendi"=>"Merhabalar; <br> \n Site üzerinden satın aldığınız $sipId 'nolu siparişiniz için satıcı güncelleme yapmıştır. <br> \n Sipariş ile ilgili detaylar için üye panelinizde bulunan satın aldıklarım alanına gidebilirsiniz.",
+
+"uyeMailSiparisDegerlendirme"=>"Merhabalar; <br> \n Site üzerinden $uyeadi isimli üye tarafından PGS sisteminde $sipId 'nolu sipariş için değerlendirme gönderilmiştir. <br> \n Değerlendirme ile ilgili detaylar için admin panelinize gidebilirsiniz.",
+
+"adminMailSiparisEklendi"=>"Merhaba Sayın Yönetici; <br> \n Site üzerinden $uyeadi isimli üye tarafından onay sırasına $sipId 'nolu ödeme eklenmiştir.<br> \n Ödeme kontrolü ve onay işlemleri için yönetim paneline gidebilirsiniz.",
+
+"adminMailMTemsilciMesaji"=>"Merhaba Sayın Yönetici; \n Site üzerinden $uyeadi isimli üye tarafından $sipId 'nolu PGS için özel mesaj gönderilmiştir.\n Cevap verebilmek için yönetim paneline gidebilirsiniz.",
+
+"uyeMailParolaSifirlama"=>"Merhaba Sayın $uyeadi; <br> Site üzerinden şifre sıfırlama talebi gönderilmiştir.<br><br><br> Şifre Sıfırlama Linki;<br> $SifirlamaLinki <br><br> Bu talebi siz göndermediyseniz sistem üzerinden giriş yaparak şifrenizi güvenli bir şekilde değiştirip derhal iletişim kanallarımız ile bize bildiriniz.",
+
+"uyeMailParolaSifirlandi"=>"Merhaba Sayın $uyeadi; <br><br> Site üzerinden şifreniz başarılı bir şekilde değiştirilmiştir. Yeni şifreniz ile üye girişi yapabilirsiniz. <br><br> $SifirlamaLinki <br>",
+
+"uyeMailBaslikYorumGeldi"=>"Yorum veya Soru Geldi",
+
+"uyeMailBaslikSikayetGeldi"=>"İlan Şikayet Formu",
+
+"uyeMailBaslikIletisimGeldi"=>"İletişim Mesajı",
+
+"uyeMailBaslikOnayKoduGeldi"=>"Onay Kodu!",
+
+"uyeMailBaslikPmGeldi"=>"Özel Mesaj Geldi!",
+
+"uyeMailBaslikUrunSatildiGeldi"=>"Ürünüz Satıldı!",
+
+"uyeMailBaslikSiparisGuncellendiGeldi"=>"Siparişiniz Güncellendi!",
+
+"uyeMailBaslikPGSDegerlendirmeGeldi"=>"PGS Değerlendirme",
+
+"uyeMailBaslikOdemeBildirimGeldi"=>"Ödeme Bildirimi",
+
+"uyeMailBaslikIlanEklendi"=>"İlan Eklendi!",
+
+"uyeMailBaslikTemsilciMesaji"=>"Müşteri Temsilcisi Mesajı",
+
+"uyeMailBaslikParoleSifirla"=>"Parola Sifirlama Talebi",
+
+"uyeMailBaslikParoleSifirlamaTamamlandi"=>"Parola Sifirlama Tamamlandı",
+
+"uyeMailBildirimOzelMesaj"=>"'üye tarafından özel mesaj alındı!",
+
+"uyeMailBildirimSiparis1"=>" isimli üye tarafından ",
+
+"uyeMailBildirimSiparis2"=>" nolu ürün ",
+
+"uyeMailBildirimSiparis3"=>" adet olarak sipariş alındı!",
+
+"uyeMailBildirimPGSGuncelleme"=>" 'nolu PGS Satıcı Durum Güncellemesi",
+
+"uyeMailBildirimPGSDegerlendirme"=>" 'nolu PGS için Değerlendirme Gönderildi.",
+
+"uyeMailBildirimPGSMesaji"=>" 'üye tarafından PGS mesajı alındı!",
+
+"HesapBakiyeniz"=>"<br>Hesap Bakiyeniz: ",
+
+"kalanBakiyeniz"=>"<br>Kalan Bakiyeniz: ",
+
+"kalanBakiyeniz2"=>"Kalan Bakiyeniz: ",
+
+"ilanOnaydaOtomatikDuser"=>"İlanınız onaylandığında bakiye otomatik olarak hesabınızdan düşecektir.",
+
+"yetersizBakiye"=>"Yetersiz Bakiye!",
+
+"yetersizBakiyeUayri"=>"Hesabinizde ödeme yapabileceğiniz yeterli bakiye bulunmuyor! <br> İşlemi tamamlayabilmek için bakiye sayfasından en az ",
+
+"yetersizBakiyeUayri2"=>" daha bakiye yüklemelisiniz!",
+
+"sepetYetersizBakiye2"=>" daha bakiye yüklemelisiniz!",
+
+"ilanHakkiYok"=>"İlan Hakkınız Yok! <br> Üyeliğinizde tanımlı ilan hakkınız bulunmamaktadır.<br> Buradan Paket Satın Alabilirsiniz.",
+
+"PGSAnlikVeri"=>"<b>ÖNEMLİ UYARI!</b> <br> Param Güvende Sistemi (PGS) ile aracılık komisyonu (%",
+
+"PGSAnlikVeri1"=> ") satış sonrası kesildikten sonra hesabınıza ödenecek tutar ",
+
+"PGSAnlikVeri2"=> ")</b> dir. <br> NOT: Sistem alıcıdan ayrıca komisyon almaz!",
+
+"TelefonNoOnaylayin"=> "Telefon numaranızı Onaylayın",
+
+"onayKodunuGiriniz"=> "Gelen Onay Kodunuzu Girin",
+
+"MailNoOnaylayin"=> "Mail Adersinizi Onaylayın",
+
+"onayaGonder"=> "Onaya Gönder",
+
+"sepetYetersizBakiye1"=>"<b>Yetersiz Bakiye!</b> <br> <small>Sepetinizdeki ürünleri ödemek için lütfen hesabınıza en az",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    )
+
+    ?>
